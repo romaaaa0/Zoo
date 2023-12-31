@@ -77,6 +77,8 @@
      <Compile Include="Assets/Scripts/LieDownAnimation.cs" />
      <Compile Include="Assets/Scripts/Dog.cs" />
      <Compile Include="Assets/Scripts/RecordTime.cs" />
+     <Compile Include="Assets/Scripts/UINotEnoughMoney.cs" />
+     <Compile Include="Assets/Scripts/UIHelper.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets/Runemark Studio/Freebies/Polygon Desert Pack/Materials" />
      <Folder Include="Assets/amusedART/Mummy_Mon/Scene" />
