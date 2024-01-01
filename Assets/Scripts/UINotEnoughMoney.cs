@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 namespace Assets
@@ -7,7 +8,7 @@ namespace Assets
     public class UINotEnoughMoney : MonoBehaviour
     {
         [SerializeField] private GameObject _panel;
-        [SerializeField] private Animation _animation;
+        [SerializeField] private Animator _animatior;
 
         [Space] [SerializeField] private Text _textMoney;
         [SerializeField] private Button _CloseBtn;
@@ -29,11 +30,11 @@ namespace Assets
             if (state)
             {
                 _panel.SetActive(true);
-                _animation.Play("ShowPanel");
+                _animatior.Play("ShowPanel");
             }
             else
             {
-                _animation.Play("HidePanel");
+                _animatior.Play("HidePanel");
             }
         }
 

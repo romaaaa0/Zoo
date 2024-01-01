@@ -8,15 +8,18 @@ namespace Assets
     {
         [SerializeField] private GameObject lostScreen;
         [SerializeField] private List<GameObject> heards = new List<GameObject>();
+        [Space] [SerializeField] private UINotEnoughMoney _uiNotEnoughMoney;
         private Button buttonResume;
+
         private void Start()
         {
             buttonResume = GetComponent<Button>();
             buttonResume.onClick.AddListener(ResumeForMoney);
         }
+
         private void ResumeForMoney()
         {
-            if(PlayerPrefs.GetInt("Coins") >= 200)
+            if (PlayerPrefs.GetInt("Coins") >= 200)
             {
                 Information.IsGameLost = false;
                 lostScreen.SetActive(false);
@@ -24,6 +27,10 @@ namespace Assets
                 Information.NumberHearts = 3;
                 foreach (var heard in heards)
                     heard.SetActive(true);
+            }
+            else
+            {
+                _uiNotEnoughMoney.Show(200 - PlayerPrefs.GetInt("Coins"));
             }
         }
     }
