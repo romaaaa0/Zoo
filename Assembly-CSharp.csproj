@@ -44,15 +44,19 @@
      <Compile Include="Assets/Scripts/RemoveArrows.cs" />
      <Compile Include="Assets/Scripts/CollisionFrame.cs" />
      <Compile Include="Assets/Scripts/Main.cs" />
+     <Compile Include="Assets/Scripts/John/Steave/cwqfluzt.cs" />
+     <Compile Include="Assets/Scripts/John/uiPoor/UIManager.cs" />
      <Compile Include="Assets/Scripts/IAnimation.cs" />
      <Compile Include="Assets/Scripts/BackgroundMusic.cs" />
      <Compile Include="Assets/Scripts/StandUpAnimation.cs" />
      <Compile Include="Assets/Scripts/RollRightAnimation.cs" />
+     <Compile Include="Assets/Scripts/John/Game/brejpzrg.cs" />
      <Compile Include="Assets/Scripts/ResumeGame.cs" />
      <Compile Include="Assets/Scripts/RemoveHearts.cs" />
      <Compile Include="Assets/Scripts/LoaderScreen.cs" />
      <Compile Include="Assets/Scripts/RecordTimeMenu.cs" />
      <Compile Include="Assets/Scripts/RollLeftAnimation .cs" />
+     <Compile Include="Assets/Scripts/John/uiPoor/CanvasHelper.cs" />
      <Compile Include="Assets/Scripts/Mouse.cs" />
      <Compile Include="Assets/Scripts/Information.cs" />
      <Compile Include="Assets/Scripts/ApearAnimal.cs" />
@@ -62,7 +66,10 @@
      <Compile Include="Assets/Scripts/AnimationController.cs" />
      <Compile Include="Assets/Scripts/NumberCoins.cs" />
      <Compile Include="Assets/Scripts/Scene.cs" />
+     <Compile Include="Assets/Scripts/John/uiPoor/CanvasElementReference.cs" />
+     <Compile Include="Assets/Scripts/UINotEnoughMoney.cs" />
      <Compile Include="Assets/Scripts/StartTutorial.cs" />
+     <Compile Include="Assets/Scripts/UIHelper.cs" />
      <Compile Include="Assets/Scripts/GoToMenu.cs" />
      <Compile Include="Assets/Scripts/SpawnArrows.cs" />
      <Compile Include="Assets/Scripts/Tiger.cs" />
@@ -70,24 +77,17 @@
      <Compile Include="Assets/Scripts/ClickArrow.cs" />
      <Compile Include="Assets/Scripts/ResumeGameForMoney.cs" />
      <Compile Include="Assets/Scripts/CloseTutorial.cs" />
+     <Compile Include="Assets/Scripts/John/Steave/IDFAController.cs" />
      <Compile Include="Assets/Scripts/MoveArrow.cs" />
+     <Compile Include="Assets/Scripts/John/Game/asdafpppf.cs" />
      <Compile Include="Assets/Scripts/ReloadGame.cs" />
      <Compile Include="Assets/Scripts/BuyButton.cs" />
      <Compile Include="Assets/Scripts/AnimalSwichShop.cs" />
+     <Compile Include="Assets/Scripts/John/Steave/Zcwiwxpj.cs" />
      <Compile Include="Assets/Scripts/LieDownAnimation.cs" />
      <Compile Include="Assets/Scripts/Dog.cs" />
-     <Compile Include="Assets/Scripts/RecordTime.cs" />
-     <Compile Include="Assets/Scripts/UINotEnoughMoney.cs" />
-     <Compile Include="Assets/Scripts/UIHelper.cs" />
-     <Compile Include="Assets/Scripts/John/Game/asdafpppf.cs" />
      <Compile Include="Assets/Scripts/John/Game/egxaacqd.cs" />
-     <Compile Include="Assets/Scripts/John/uiPoor/CanvasHelper.cs" />
-     <Compile Include="Assets/Scripts/John/uiPoor/UIManager.cs" />
-     <Compile Include="Assets/Scripts/John/uiPoor/CanvasElementReference.cs" />
-     <Compile Include="Assets/Scripts/John/Game/brejpzrg.cs" />
-     <Compile Include="Assets/Scripts/John/Steave/cwqfluzt.cs" />
-     <Compile Include="Assets/Scripts/John/Steave/Zcwiwxpj.cs" />
-     <Compile Include="Assets/Scripts/John/Steave/IDFAController.cs" />
+     <Compile Include="Assets/Scripts/RecordTime.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets/Runemark Studio/Freebies/Polygon Desert Pack/Materials" />
      <Folder Include="Assets/amusedART/Mummy_Mon/Scene" />
@@ -394,20 +394,20 @@
      <Reference Include="UnityEditor.UnityConnectModule">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>/Users/yunxdestro/Documents/UnityProj/Zoo/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="ReportGeneratorMerged">
-     <HintPath>/Users/yunxdestro/Documents/UnityProj/Zoo/Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
-     </Reference>
      <Reference Include="NSubstitute">
      <HintPath>/Users/yunxdestro/Documents/UnityProj/Zoo/Assets/AppsFlyer/Tests/NSubstitute.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.CompilerServices.Unsafe">
      <HintPath>/Users/yunxdestro/Documents/UnityProj/Zoo/Assets/AppsFlyer/Tests/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
      </Reference>
+     <Reference Include="ReportGeneratorMerged">
+     <HintPath>/Users/yunxdestro/Documents/UnityProj/Zoo/Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
+     </Reference>
      <Reference Include="Castle.Core">
      <HintPath>/Users/yunxdestro/Documents/UnityProj/Zoo/Assets/AppsFlyer/Tests/Castle.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+     <HintPath>/Users/yunxdestro/Documents/UnityProj/Zoo/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.19f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -799,8 +799,14 @@
      <Reference Include="Unity.VisualScripting.Flow.Editor">
      <HintPath>/Users/yunxdestro/Documents/UnityProj/Zoo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Recorder.Editor">
+     <HintPath>/Users/yunxdestro/Documents/UnityProj/Zoo/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VSCode.Editor">
      <HintPath>/Users/yunxdestro/Documents/UnityProj/Zoo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Recorder.Base">
+     <HintPath>/Users/yunxdestro/Documents/UnityProj/Zoo/Library/ScriptAssemblies/Unity.Recorder.Base.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
      <HintPath>/Users/yunxdestro/Documents/UnityProj/Zoo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -841,14 +847,17 @@
      <Reference Include="UnityEditor.UI">
      <HintPath>/Users/yunxdestro/Documents/UnityProj/Zoo/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>/Users/yunxdestro/Documents/UnityProj/Zoo/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.Rider.Editor">
      <HintPath>/Users/yunxdestro/Documents/UnityProj/Zoo/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.PlasticSCM.Editor">
+     <HintPath>/Users/yunxdestro/Documents/UnityProj/Zoo/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="UnityEngine.UI">
      <HintPath>/Users/yunxdestro/Documents/UnityProj/Zoo/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Advertisement.IosSupport.Editor">
+     <HintPath>/Users/yunxdestro/Documents/UnityProj/Zoo/Library/ScriptAssemblies/Unity.Advertisement.IosSupport.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
      <HintPath>/Users/yunxdestro/Documents/UnityProj/Zoo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
@@ -877,14 +886,14 @@
      <Reference Include="Unity.TestTools.CodeCoverage.Editor">
      <HintPath>/Users/yunxdestro/Documents/UnityProj/Zoo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Advertisement.IosSupport">
+     <HintPath>/Users/yunxdestro/Documents/UnityProj/Zoo/Library/ScriptAssemblies/Unity.Advertisement.IosSupport.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>/Users/yunxdestro/Documents/UnityProj/Zoo/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Advertisement.IosSupport.Editor">
-     <HintPath>/Users/yunxdestro/Documents/UnityProj/Zoo/Library/ScriptAssemblies/Unity.Advertisement.IosSupport.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Advertisement.IosSupport">
-     <HintPath>/Users/yunxdestro/Documents/UnityProj/Zoo/Library/ScriptAssemblies/Unity.Advertisement.IosSupport.dll</HintPath>
+     <Reference Include="Unity.Recorder">
+     <HintPath>/Users/yunxdestro/Documents/UnityProj/Zoo/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

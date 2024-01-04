@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64593
+53992
 Successfully changed project path to: /Users/yunxdestro/Documents/UnityProj/Zoo
 /Users/yunxdestro/Documents/UnityProj/Zoo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/yunxdestro/Documents/UnityProj/Zoo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140704642606848] Host "[IP] 192.168.0.107 [Port] 0 [Flags] 2 [Guid] 2076934202 [EditorId] 2076934202 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Kyrylo.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704642606848] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 1428572505 [EditorId] 1428572505 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Kyrylo.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [140704642606848] Host "[IP] 192.168.0.107 [Port] 0 [Flags] 2 [Guid] 2076934202 [EditorId] 2076934202 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Kyrylo.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140704642606848] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 1428572505 [EditorId] 1428572505 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Kyrylo.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 124.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 89.91 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.19f1 (c9714fde33b6)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -74,98 +74,98 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56087
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56846
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.19f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.19f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.001851 seconds.
+Registered in 0.001230 seconds.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 157 ms
+Android Extension - Scanning For ADB Devices 118 ms
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 119.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 88.47 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.456 seconds
+- Completed reload, in  1.001 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1457ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (1001ms)
+		BeginReloadAssembly (77ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1156ms)
-			LoadAssemblies (109ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (796ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (212ms)
+			SetupTypeCache (141ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (798ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (551ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (429ms)
+				InitializePlatformSupportModulesInManaged (303ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (119ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (166ms)
-				ProcessInitializeOnLoadMethodAttributes (81ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (107ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003862 seconds.
+Registered in 0.004206 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.060 seconds
+- Completed reload, in  1.639 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2062ms)
-		BeginReloadAssembly (177ms)
+	ReloadAssembly (1640ms)
+		BeginReloadAssembly (149ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (1683ms)
-			LoadAssemblies (109ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1370ms)
+			LoadAssemblies (94ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (530ms)
+			SetupTypeCache (439ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (114ms)
-			SetupLoadedEditorAssemblies (792ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (621ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (50ms)
+				InitializePlatformSupportModulesInManaged (36ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (117ms)
-				ProcessInitializeOnLoadAttributes (587ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (463ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3431 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (1.2 MB). Loaded Objects now: 3898.
-Memory consumption went from 135.3 MB to 134.1 MB.
-Total: 25.468601 ms (FindLiveObjects: 0.413131 ms CreateObjectMapping: 0.318903 ms MarkObjects: 24.167599 ms  DeleteObjects: 0.567236 ms)
+Unloading 3667 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 78 unused Assets / (1.3 MB). Loaded Objects now: 4113.
+Memory consumption went from 145.2 MB to 143.9 MB.
+Total: 4.999016 ms (FindLiveObjects: 0.363160 ms CreateObjectMapping: 0.306108 ms MarkObjects: 3.920156 ms  DeleteObjects: 0.408568 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -179,148 +179,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 45196.296805 seconds.
-  path: Assets/Low-Poly Style Nature/Resources/Textures/LPN_Large_Rocks_AlbedoTransparency.png
-  artifactKey: Guid(6f54291eab58c4faf8d6b5dfd42c8e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly Style Nature/Resources/Textures/LPN_Large_Rocks_AlbedoTransparency.png using Guid(6f54291eab58c4faf8d6b5dfd42c8e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4031acc1d26c5992aec95ec83305fee') in 0.341924 seconds 
+  Time since last request: 57420.838914 seconds.
+  path: Assets/Scripts/John
+  artifactKey: Guid(ef7fe93736ad34cb9a70d50fb8a33cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/John using Guid(ef7fe93736ad34cb9a70d50fb8a33cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c17bf235e07e4eb8cfe114c5ff26c97') in 0.008478 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003035 seconds.
-  path: Assets/Low-Poly Style Nature/Resources/Textures/LPN_Large_Rocks_SpecularSmoothness.png
-  artifactKey: Guid(467326baf9dc74a53b4c148ae841c822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly Style Nature/Resources/Textures/LPN_Large_Rocks_SpecularSmoothness.png using Guid(467326baf9dc74a53b4c148ae841c822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b4e2394231ec951e567a3bb6d159da') in 0.085690 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.005042 seconds.
-  path: Assets/Low-Poly Style Nature/Resources/Textures/LPN_Ground_SpecularSmoothness.png
-  artifactKey: Guid(f4aa53476d91a4cf8bcce0b217608bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly Style Nature/Resources/Textures/LPN_Ground_SpecularSmoothness.png using Guid(f4aa53476d91a4cf8bcce0b217608bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a585f65291289486da4df24e0105862') in 0.104684 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003469 seconds.
-  path: Assets/Low-Poly Style Nature/Resources/Textures/LPN_Details_Normal.png
-  artifactKey: Guid(733c23e338d2f4c0ab0a07d74833faab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly Style Nature/Resources/Textures/LPN_Details_Normal.png using Guid(733c23e338d2f4c0ab0a07d74833faab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e624a1d8c41a3ad342e52f7c37e6633') in 0.103359 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/Low-Poly Style Nature/Resources/Textures/LPN_Stones_Terrain_Normal.png
-  artifactKey: Guid(69c9fce27b2f847549bee5c80e833c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly Style Nature/Resources/Textures/LPN_Stones_Terrain_Normal.png using Guid(69c9fce27b2f847549bee5c80e833c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c5a8813677edc976932d5ed2d7f3f1') in 0.044819 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Low-Poly Style Nature/Resources/Textures/LPN_Camp_Normal.png
-  artifactKey: Guid(4b1b67ce11dff467aab1cdac1e24707a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly Style Nature/Resources/Textures/LPN_Camp_Normal.png using Guid(4b1b67ce11dff467aab1cdac1e24707a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f538399db562f30349f8451843d7d615') in 0.043372 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/Low-Poly Style Nature/Resources/Textures/LPN_Trees_SpecularSmoothness.png
-  artifactKey: Guid(d8fd16ad8283b47028ae375b3b652b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly Style Nature/Resources/Textures/LPN_Trees_SpecularSmoothness.png using Guid(d8fd16ad8283b47028ae375b3b652b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03542c165741149e067e583b3e91da82') in 0.076905 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002512 seconds.
-  path: Assets/Low-Poly Style Nature/Resources/Textures/LPN_Mountains_SpecularSmoothness.png
-  artifactKey: Guid(57d023763ba6344029e94a6ade175bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly Style Nature/Resources/Textures/LPN_Mountains_SpecularSmoothness.png using Guid(57d023763ba6344029e94a6ade175bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18966e05b38502bedc8750e51ddf9d2') in 0.099520 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Low-Poly Style Nature/Resources/Textures/LPN_Grass_Terrain_Normal.png
-  artifactKey: Guid(146b88998cccb4e90aff65a05bc66ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly Style Nature/Resources/Textures/LPN_Grass_Terrain_Normal.png using Guid(146b88998cccb4e90aff65a05bc66ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb8280b55fc539c2a0e906573d282db') in 0.055939 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Low-Poly Style Nature/Resources/Textures/LPN_Camp_SpecularSmoothness.png
-  artifactKey: Guid(1cb3081d1aedb48819fdeacff1b76be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly Style Nature/Resources/Textures/LPN_Camp_SpecularSmoothness.png using Guid(1cb3081d1aedb48819fdeacff1b76be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de644482abcbaf474ee1242851508b08') in 0.089644 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Low-Poly Style Nature/Resources/Textures/LPN_Rocks_AlbedoTransparency.png
-  artifactKey: Guid(7853644bc0ee74775836b26b89416628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly Style Nature/Resources/Textures/LPN_Rocks_AlbedoTransparency.png using Guid(7853644bc0ee74775836b26b89416628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85983dc551905ed1a67dcaf2ed184ddc') in 0.086168 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000954 seconds.
-  path: Assets/Low-Poly Style Nature/Resources/Textures/LPN_Rocks_SpecularSmoothness.png
-  artifactKey: Guid(56fd3b6bfc2cd49a686c19778a23a563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly Style Nature/Resources/Textures/LPN_Rocks_SpecularSmoothness.png using Guid(56fd3b6bfc2cd49a686c19778a23a563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ff4fa8d91dd0427913e9c0d8a0a75d') in 0.081967 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/Low-Poly Style Nature/Resources/Textures/LPN_Details_AlbedoTransparency.png
-  artifactKey: Guid(35393461ff37a4d2d9600eaf1b1bcf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly Style Nature/Resources/Textures/LPN_Details_AlbedoTransparency.png using Guid(35393461ff37a4d2d9600eaf1b1bcf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32987ac95f71e819e597a174b5cd6ae9') in 0.115015 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/Low-Poly Style Nature/Resources/Textures/LPN_Snow_Terrain_Normal.png
-  artifactKey: Guid(07cf491a2a8c64dbdb41cca337cab8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly Style Nature/Resources/Textures/LPN_Snow_Terrain_Normal.png using Guid(07cf491a2a8c64dbdb41cca337cab8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1625dc378ece0f414e6dccc9d271fed4') in 0.056522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Low-Poly Style Nature/Resources/Textures/LPN_Large_Rocks_Normal.png
-  artifactKey: Guid(51ee26824fb274b37b0ed96b75b666f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly Style Nature/Resources/Textures/LPN_Large_Rocks_Normal.png using Guid(51ee26824fb274b37b0ed96b75b666f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c7c5057e1c62900f74f807d883c481') in 0.062414 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.202120 seconds.
-  path: Packages/com.unity.postprocessing/PostProcessing/Textures/SMAA/AreaTex.tga
-  artifactKey: Guid(73ec4ae984a0a0f44a2be737e41a6f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.postprocessing/PostProcessing/Textures/SMAA/AreaTex.tga using Guid(73ec4ae984a0a0f44a2be737e41a6f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ef607ab67c71a7b8d6f5a199d5ce16') in 0.171893 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/FreeButtonSet/Textures/icons/64x64/arrow_left.png
-  artifactKey: Guid(8b93523f32be16548bf56b5a6db4fefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeButtonSet/Textures/icons/64x64/arrow_left.png using Guid(8b93523f32be16548bf56b5a6db4fefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31954163bb1f08bb567dbddcd1e45fa5') in 0.034215 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.745306 seconds.
-  path: Assets/American TextC.ttf
-  artifactKey: Guid(af4fe5a36b8e2034491d906df5cec264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/American TextC.ttf using Guid(af4fe5a36b8e2034491d906df5cec264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ad9fb27810af14cb09262e9830769b') in 0.194790 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 389.383941 seconds.
-  path: Assets/FreeButtonSet/Textures/icons/32x32/arrow_right.png
-  artifactKey: Guid(23772e19474d2c443b3be8361065a7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeButtonSet/Textures/icons/32x32/arrow_right.png using Guid(23772e19474d2c443b3be8361065a7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e1da4e9f8537d5e308ebfdd4ff995b') in 0.015934 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/FreeButtonSet/Textures/icons/256x256/arrow_right.png
-  artifactKey: Guid(841ae3188ba4d9746ba4f4ed86597a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeButtonSet/Textures/icons/256x256/arrow_right.png using Guid(841ae3188ba4d9746ba4f4ed86597a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073f75c6a7ee20318ee292d5ba7549ca') in 0.029847 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.496465 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconinviteusers.png
-  artifactKey: Guid(3094096a150921c409ef35579f2ada0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconinviteusers.png using Guid(3094096a150921c409ef35579f2ada0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc83d626b998cbc4989a699e6c0c3d3') in 0.013049 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconinviteusers@2x.png
-  artifactKey: Guid(2b9bf8ec5d54fe249ac9e20979ccd42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconinviteusers@2x.png using Guid(2b9bf8ec5d54fe249ac9e20979ccd42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf4ed280fdd0788de31a8a43494e322') in 0.037844 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconinviteusers@2x.png
-  artifactKey: Guid(b43651fb085b38445ade3f9de3ab0636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconinviteusers@2x.png using Guid(b43651fb085b38445ade3f9de3ab0636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74cd148a631cc104acd82e3f61e81bd') in 0.014960 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconinviteusers.png
-  artifactKey: Guid(40e23f4f2fddc724db517c63f4d8990d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconinviteusers.png using Guid(40e23f4f2fddc724db517c63f4d8990d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc83a764670c633f9d8b41ce37f5b20') in 0.012313 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
+  Time since last request: 5.119893 seconds.
+  path: Assets/Scripts/LieDownAnimation.cs
+  artifactKey: Guid(0ca239ec9a020934b8eea342417a0bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LieDownAnimation.cs using Guid(0ca239ec9a020934b8eea342417a0bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d75ccd75183d9ac55df434bae6c1007') in 0.121357 seconds 
